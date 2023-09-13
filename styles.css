@@ -1,0 +1,149 @@
+
+body {
+    font-family: Helvetica, sans-serif;
+    
+}
+
+
+
+
+
+.logo{
+    width: 30%;
+
+
+}
+
+.contenedor-carrusel{
+
+    padding: 2em;
+    height: 80%!important;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.subtitulo-item-slider {
+    color: black;
+    padding-bottom: 1em;
+}
+
+
+.texto-item-slider {
+    color: black;
+    
+}
+
+.d-md-block {
+    
+    line-height: 0.4; /* Modificar la distancia entre lineas */
+    text-align: left;
+}
+
+/*
+.w-100 {
+    
+    width: 90%!important;
+}
+*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 1.2em;
+}
+
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+    background-color: #ffbcdb;
+}
+
+.subtitulo-cuidado-cabello {
+    text-align: center;
+    padding-bottom: 1em;
+
+}
+
+/* Custom CSS to hide video controls */
+.custom-video {
+    appearance: none;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+/* Fixed/sticky icon bar */
+
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .icon-bar a:hover {
+    background-color: #ffbcdb;
+  }
+  
+  .facebook {
+    background: #ffffff;
+    color: #969696 !important;
+  }
+  
+  .twitter {
+    background:  #ffffff;
+    color: #969696 !important;
+  }
+
+  .instagram {
+    background:  #ffffff;
+    color: #969696 !important;
+  }
+  
+  /*
+  .google {
+    background:  #ffffff;
+    color: #969696 !important;
+  }
+  
+  
+  .linkedin {
+    background:  #ffffff;
+    color: #969696 !important;
+  }
+
+  */
+  
+  .youtube {
+    background:  #ffffff;
+    color: #969696 !important;
+  }
+
+
+.logo-inf-mini{
+
+    padding: 0.5em;
+    width: 30%;
+    height: 30%;
+
+  }
