@@ -1,4 +1,7 @@
 
+
+
+
 body {
     font-family: Helvetica, sans-serif;
     
@@ -146,4 +149,95 @@ body {
     width: 30%;
     height: 30%;
 
+  }
+
+
+  /**/
+
+  /* Style the word list */
+  .word-list {
+
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+
+  }
+
+      /* Hide all words by default */
+    .word {
+
+    display: none;
+    
+  }
+
+  
+  .contenedor-imagen-cap{
+
+    padding-top: 3em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+    border: 2px solid  gray;
+    min-height: 520px;
+    min-width: 210px;
+
+  
+
+  }
+
+    
+  .contenedor-imagen-cap:hover{
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s ease;
+  
+
+  }
+
+  
+  .imagen-cap{
+
+    width: 100%;
+
+  }
+
+
+  .contenedor-productos-cap{
+
+    display: block;
+    padding: 4em;
+    
+  
+    
+  }
+
+  .texto-inf-productos{
+    text-align: center;
+    padding-top: 1em;
+    font-weight: bolder;
+    
+  }
+
+  .texto-precio-productos{
+    text-align: center;
+    padding-bottom: 1em;
+    
+  }
+
+  .fila-productos{
+
+    padding-bottom: 2em;
+
+  }
+
+
+  footer{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
   }
