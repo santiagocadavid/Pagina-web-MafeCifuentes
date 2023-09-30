@@ -266,13 +266,26 @@ body {
 
   }
 
-  .valores-corporativos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-right: 300px;
-
+  .float2{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:120px;
+    right:40px;
+    background: linear-gradient(45deg, #ffb500, #fe7b00,#ff152e, #fd026e,#fc019f,#fc00d0, #fc00c1);
+    color:#FFF;
+    border-radius:15px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
   }
+  
+  .my-float2{
+    margin-top:16px;
+  }
+
+
 
   /*FORMULARIO*/
 
