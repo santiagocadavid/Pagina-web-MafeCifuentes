@@ -13,12 +13,10 @@
 
 </head>
 <body>
-
-
-
-    
+  
+   
     <header>
-        
+      <div id="particles-js"></div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             
             <a class="logo" href="index.html"><img src="img/Logo provisional.jpg" alt=""></a>
@@ -71,11 +69,16 @@
 
 
     <br>
-    
-    <h1 class="titulo-principal">Bienvenido a MafeCifuentes</h1>
 
-    <h3 class="titulo-secundario">CUIDADO CAPILAR, FACIAL Y CORPORAL💖</h3>
+    <div class="container" >
+          
+      <h1 class="titulo-principal">Bienvenido a MafeCifuentes</h1>
 
+      <h3 class="titulo-secundario">CUIDADO CAPILAR, FACIAL Y CORPORAL💖</h3>
+
+
+
+    </div>
 
 
     <br>
@@ -203,14 +206,22 @@
 
 
   
-    <footer class="d-flex flex-wrap align-items-center py-3 my-4 border-top">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top footer-custom">
         <div class="col-md-4 d-flex align-items-center">
           <a href="#" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
             <img class="logo-inf-mini" src="img/ico/Logo-provisional.ico" alt="logo mini" >
           </a>
           <span class="mb-3 mb-md-0 text-muted">&copy; 2023 MafeCifuentes Beauty</span>
         </div>
+        <br>
     
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#">
+            <svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a>
+          </li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
     </footer>
   
     
@@ -222,6 +233,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
+
+    <script src="js/particles.min.js"></script>
+  <script src="js/particlesjs-config.json"></script>
 
 </body>
 
